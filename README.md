@@ -209,7 +209,7 @@ If you are struggling with a challenge assignment or any aspect of the academic 
 - Ask the class Slack channel/peer support.
 - AskBCS Learning Assistants exists in your class Slack application.
 - Office hours facilitated by your instructional staff before and after each class session.
-- [Tutoring Guidelines](Links to an external site.) - schedule a tutor session in the Tutor Sessions section of Bootcampspot - Canvas
+- [Tutoring Guidelines](https://docs.google.com/document/d/1hTldEfWhX21B_Vz9ZentkPeziu4pPfnwiZbwQB27E90/edit?usp=sharing) - schedule a tutor session in the Tutor Sessions section of Bootcampspot - Canvas
 
 If the above resources are not applicable and you have a need, please reach out to a member of your instructional team, your Student Success Advisor, or submit a support ticket in the Student Support section of your BCS application.
 
