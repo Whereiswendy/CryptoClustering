@@ -22,7 +22,7 @@ In this challenge, you’ll use your knowledge of Python and unsupervised learni
 
 Download the following files to help you get started:
 
-[Module 19 Challenge files](Links to an external site.)
+[Module 19 Challenge files](https://static.bc-edx.com/data/dla-1-2/m19/lms/starter/Starter_Code.zip)
 
 ## Instructions
 
@@ -96,6 +96,11 @@ Download the following files to help you get started:
 ### Answer the following question
 
 - What is the impact of using fewer features to cluster the data using K-Means?
+
+> **REWIND**
+>
+> Recall that you learned how to create composite plots in a previous module. If you need a refresher on how to create these plots, review that module. You can also check [Composing Plots](Links to an external site.) in the hvPlot documentation.
+ 
 
 ## Requirements
 
