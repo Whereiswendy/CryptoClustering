@@ -12,7 +12,7 @@ Leveraging Python and unsupervised learning to predict if cryptocurrencies are a
 
 In this challenge, you’ll use your knowledge of Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
 
-## <span style="color:blue">Before You Begin</span>
+## **Before You Begin** ✨
 
 1. Create a new repository for this project called `CryptoClustering`. Do not add this homework to an existing repository.
 2. Clone the new repository to your computer.
