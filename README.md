@@ -9,8 +9,6 @@ Leveraging Python and unsupervised learning to predict if cryptocurrencies are a
 # Module 19 Challenge Instructions 
 *Source: Provided by edX Boot Camps LLC*
 
-## Due Thursday by 23:59 Points 100 Submitting a text entry box or a website url
-
 In this challenge, you’ll use your knowledge of Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
 
 ## **Before You Begin** ✨
@@ -33,11 +31,10 @@ Download the following files to help you get started:
 
 ### Prepare the Data
 
-1. Use the `StandardScaler()` module from scikit-learn to normalize the data from the CSV file.
+1. Use the `StandardScaler()` module from scikit-learn to normalise the data from the CSV file.
 2. Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
 3. The first five rows of the scaled DataFrame should appear as follows:
 ![Image](https://static.bc-edx.com/data/dla-1-2/m19/lms/img/scaled_DataFrame.png)
-
 
 ### Find the Best Value for k Using the Original Scaled DataFrame
 
