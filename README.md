@@ -99,8 +99,7 @@ Download the following files to help you get started:
 
 > **REWIND**
 >
-> Recall that you learned how to create composite plots in a previous module. If you need a refresher on how to create these plots, review that module. You can also check [Composing Plots](Links to an external site.) in the hvPlot documentation.
- 
+> Recall that you learned how to create composite plots in a previous module. If you need a refresher on how to create these plots, review that module. You can also check [Composing Plots](https://holoviz.org/tutorial/Composing_Plots.html) in the hvPlot documentation.
 
 ## Requirements
 
