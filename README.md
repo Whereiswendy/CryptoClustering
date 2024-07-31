@@ -20,7 +20,7 @@ The project is structured as follows:
    - Summary statistics and initial plots are generated to understand the data.
 
 2. **Data Normalisation:**
-   - The data is normalised using `StandardScaler` to ensure all features contribute equally to the clustering process.
+   - The data are normalised using `StandardScaler` to ensure all features contribute equally to the clustering process.
 
 3. **Finding Optimal k (Elbow Method):**
    - The elbow method is used on the original scaled data to find the optimal number of clusters (`k`).
@@ -55,11 +55,11 @@ The project is structured as follows:
   - Optimal `k` identified using the elbow method.
 
 - **Same Number of Clusters:**
-  - Both methods (original data and PCA data) determined the same number of clusters: 4.
+  - Both methods (original scaled data and PCA data) determined the same number of clusters: 4.
 
 ## Conclusion
 
-Using PCA for dimensionality reduction before clustering with K-means results in clearer and more distinct clusters. This approach reduces the complexity of the data, making clustering more efficient and visualization more interpretable. However, some information loss may occur due to dimensionality reduction.
+Using PCA for dimensionality reduction before clustering with K-means results in clearer and more distinct clusters. This approach reduces the complexity of the data, making clustering more efficient and visualisation more interpretable. However, some information loss may occur due to dimensionality reduction.
 
 ## Reproducibility
 
@@ -84,10 +84,10 @@ A `random_state` of 2 was used throughout the analysis to ensure that the exact 
    cd CryptoClustering
 
 ---
-# Module 19 Challenge Instructions 
-*Source: Provided by edX Boot Camps LLC*
+># Module 19 Challenge Instructions 
+>*Source: Provided by edX Boot Camps LLC*
 
-In this challenge, you’ll use your knowledge of Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
+>In this challenge, you’ll use your knowledge of Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
 
 ## **Before You Begin** ✨
 
@@ -169,14 +169,14 @@ Download the following files to help you get started:
 - Colour the graph points with the labels found using K-means.
 - Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
 
-### Answer the following question
+>### Answer the following question
 
-- What is the impact of using fewer features to cluster the data using K-Means?
+>- What is the impact of using fewer features to cluster the data using K-Means?
 
-> **REWIND**
+>> **REWIND**
+>>
+>> Recall that you learned how to create composite plots in a previous module. If you need a refresher on how to create these plots, review that module. You can also check [Composing Plots](https://holoviz.org/tutorial/Composing_Plots.html) in the hvPlot documentation.
 >
-> Recall that you learned how to create composite plots in a previous module. If you need a refresher on how to create these plots, review that module. You can also check [Composing Plots](https://holoviz.org/tutorial/Composing_Plots.html) in the hvPlot documentation.
-
 ## Requirements
 
 ### Find the Best Value for k by Using the Original Data (15 points)
