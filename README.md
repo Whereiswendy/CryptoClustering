@@ -1,9 +1,87 @@
 # CryptoClustering
 Leveraging Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes
 
+---
+## Overview
 
+This project aims to cluster cryptocurrencies based on their market performance using K-means clustering. The analysis is performed twice: first on the original scaled data and then on data reduced via Principal Component Analysis (PCA). The project explores the impact of dimensionality reduction on clustering performance and visualisation.
 
+## Project Structure
 
+The project is structured as follows:
+
+- `Resources/crypto_market_data.csv`: The dataset used for clustering.
+- `Crypto_Clustering_code.ipynb`: The Jupyter Notebook containing the analysis and clustering process.
+
+## Analysis Workflow
+
+1. **Data Loading and Preparation:**
+   - The cryptocurrency market data is loaded and inspected.
+   - Summary statistics and initial plots are generated to understand the data.
+
+2. **Data Normalisation:**
+   - The data is normalised using `StandardScaler` to ensure all features contribute equally to the clustering process.
+
+3. **Finding Optimal k (Elbow Method):**
+   - The elbow method is used on the original scaled data to find the optimal number of clusters (`k`).
+   - The `kneed` library is utilised to automate the identification of the "elbow" point in the elbow curve, providing a more precise determination of the optimal number of clusters.
+
+4. **K-means Clustering (Original Data):**
+   - K-means clustering is applied using the optimal `k` found.
+   - The clusters are visualised using hvPlot and Seaborn.
+
+5. **Principal Component Analysis (PCA):**
+   - PCA is performed to reduce the data to three principal components.
+   - The explained variance is calculated to ensure sufficient information retention.
+   - The elbow method is applied again on the PCA data to find the optimal `k`.
+   - The `kneed` library is utilised again to automate the identification of the "elbow" point in the elbow curve, providing a more precise determination of the optimal number of clusters.
+
+6. **K-means Clustering (PCA Data):**
+   - K-means clustering is applied using the optimal `k` on the PCA data.
+   - The clusters are visualised using hvPlot and Seaborn.
+
+7. **Comparison of Results:**
+   - Composite plots are created to contrast the elbow curves and clustering results.
+   - The impact of using fewer features for clustering is analysed.
+
+## Results
+
+- **Original Data Clustering:**
+  - Clusters formed with some overlaps in certain plots.
+  - Optimal `k` identified using the elbow method.
+
+- **PCA Data Clustering:**
+  - Clearer and more distinct clusters with reduced overlaps.
+  - Optimal `k` identified using the elbow method.
+
+- **Same Number of Clusters:**
+  - Both methods (original data and PCA data) determined the same number of clusters: 4.
+
+## Conclusion
+
+Using PCA for dimensionality reduction before clustering with K-means results in clearer and more distinct clusters. This approach reduces the complexity of the data, making clustering more efficient and visualization more interpretable. However, some information loss may occur due to dimensionality reduction.
+
+## Reproducibility
+
+A `random_state` of 2 was used throughout the analysis to ensure that the exact same results can be replicated.
+
+## Requirements
+
+- Python 3.x
+- pandas
+- numpy
+- scikit-learn
+- hvplot
+- seaborn
+- matplotlib
+- kneed
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/CryptoClustering.git
+   cd CryptoClustering
 
 ---
 # Module 19 Challenge Instructions 
