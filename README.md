@@ -84,9 +84,6 @@ A `random_state` of 2 was used throughout the analysis to ensure that the exact 
    cd CryptoClustering
 
 ---
-Certainly! Here is the text with `>` added for each line to format it as a blockquote:
-
-```markdown
 > # Module 19 Challenge Instructions 
 > *Source: Provided by edX Boot Camps LLC*
 > 
@@ -223,8 +220,6 @@ Certainly! Here is the text with `>` added for each line to format it as a block
 > To receive all points, you must:
 > 
 > 1. Initialise the K-means model with four clusters by using the best value for k. (1 point)
-
-
 > 2. Fit the K-means model by using the PCA data. (1 point)
 > 3. Predict the clusters for grouping the cryptocurrencies by using the PCA data. Review the resulting array of cluster values. (3 points)
 > 4. Create a copy of the DataFrame with the PCA data, and then add a new column to store the predicted clusters. (1 point)
